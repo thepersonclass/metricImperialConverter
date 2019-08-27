@@ -132,7 +132,7 @@ class Length {
     }
     
     private func calculateInchToFeet(inches: Float) -> Float {
-        return inches * 12
+        return inches / 12
     }
     
     private func calculateInchToCentimeters(inches: Float) -> Float {

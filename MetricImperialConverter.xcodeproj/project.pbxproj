@@ -14,12 +14,9 @@
 		02D084F22308C2E800AACD21 /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D084F12308C2E800AACD21 /* Volume.swift */; };
 		02D084F4230AEECC00AACD21 /* LengthConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D084F3230AEECC00AACD21 /* LengthConversionViewController.swift */; };
 		02F16E8C22DADFE5003F52F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F16E8B22DADFE5003F52F1 /* AppDelegate.swift */; };
-		02F16E8E22DADFE5003F52F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F16E8D22DADFE5003F52F1 /* ViewController.swift */; };
 		02F16E9122DADFE5003F52F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F16E8F22DADFE5003F52F1 /* Main.storyboard */; };
 		02F16E9322DADFE6003F52F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F16E9222DADFE6003F52F1 /* Assets.xcassets */; };
 		02F16E9622DADFE6003F52F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F16E9422DADFE6003F52F1 /* LaunchScreen.storyboard */; };
-		02F16EA522DC272C003F52F1 /* ImperialSystemLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F16EA422DC272C003F52F1 /* ImperialSystemLength.swift */; };
-		02F16EA922DC303D003F52F1 /* MetricSystemLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F16EA822DC303D003F52F1 /* MetricSystemLength.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,13 +28,10 @@
 		02D084F3230AEECC00AACD21 /* LengthConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthConversionViewController.swift; sourceTree = "<group>"; };
 		02F16E8822DADFE5003F52F1 /* MetricImperialConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetricImperialConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F16E8B22DADFE5003F52F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02F16E8D22DADFE5003F52F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02F16E9022DADFE5003F52F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02F16E9222DADFE6003F52F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02F16E9522DADFE6003F52F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02F16E9722DADFE6003F52F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02F16EA422DC272C003F52F1 /* ImperialSystemLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImperialSystemLength.swift; sourceTree = "<group>"; };
-		02F16EA822DC303D003F52F1 /* MetricSystemLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricSystemLength.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,14 +66,13 @@
 			children = (
 				02F16E9D22DAE006003F52F1 /* Models */,
 				02F16E8B22DADFE5003F52F1 /* AppDelegate.swift */,
-				02F16E8D22DADFE5003F52F1 /* ViewController.swift */,
 				021EAD5522FC76A100809926 /* WeightConversionViewController.swift */,
 				02D084EF2308C2D200AACD21 /* VolumeConversionViewController.swift */,
+				02D084F3230AEECC00AACD21 /* LengthConversionViewController.swift */,
 				02F16E8F22DADFE5003F52F1 /* Main.storyboard */,
 				02F16E9222DADFE6003F52F1 /* Assets.xcassets */,
 				02F16E9422DADFE6003F52F1 /* LaunchScreen.storyboard */,
 				02F16E9722DADFE6003F52F1 /* Info.plist */,
-				02D084F3230AEECC00AACD21 /* LengthConversionViewController.swift */,
 			);
 			path = MetricImperialConverter;
 			sourceTree = "<group>";
@@ -87,29 +80,11 @@
 		02F16E9D22DAE006003F52F1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				02F16EA322DC26FB003F52F1 /* MetricSystem */,
-				02F16EA222DC26E0003F52F1 /* ImperialSystem */,
 				021EAD572305A81400809926 /* Weight.swift */,
 				02D084F12308C2E800AACD21 /* Volume.swift */,
 				025ECDFA230C3BF50014ECA7 /* Length.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		02F16EA222DC26E0003F52F1 /* ImperialSystem */ = {
-			isa = PBXGroup;
-			children = (
-				02F16EA422DC272C003F52F1 /* ImperialSystemLength.swift */,
-			);
-			path = ImperialSystem;
-			sourceTree = "<group>";
-		};
-		02F16EA322DC26FB003F52F1 /* MetricSystem */ = {
-			isa = PBXGroup;
-			children = (
-				02F16EA822DC303D003F52F1 /* MetricSystemLength.swift */,
-			);
-			path = MetricSystem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,15 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02F16E8E22DADFE5003F52F1 /* ViewController.swift in Sources */,
-				02F16EA922DC303D003F52F1 /* MetricSystemLength.swift in Sources */,
 				02F16E8C22DADFE5003F52F1 /* AppDelegate.swift in Sources */,
 				021EAD582305A81400809926 /* Weight.swift in Sources */,
 				02D084F22308C2E800AACD21 /* Volume.swift in Sources */,
 				021EAD5622FC76A100809926 /* WeightConversionViewController.swift in Sources */,
 				02D084F4230AEECC00AACD21 /* LengthConversionViewController.swift in Sources */,
 				025ECDFB230C3BF50014ECA7 /* Length.swift in Sources */,
-				02F16EA522DC272C003F52F1 /* ImperialSystemLength.swift in Sources */,
 				02D084F02308C2D200AACD21 /* VolumeConversionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
